@@ -21,9 +21,4 @@ export class Person extends BaseEntity {
     length: 10,
   })
   card_number: string;
-
-  @Column({
-    type: "numeric",
-  })
-  balance: number;
 }

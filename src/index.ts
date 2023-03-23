@@ -6,8 +6,10 @@ import { Client } from "./entities/Client";
 import { Banker } from "./entities/Banker";
 import { Transaction } from "./entities/Transaction";
 
-dotenv.config();
+import { createClientRouter } from "./routes/create_client";
+import { createBankerRouter } from "./routes/create_banker";
 
+dotenv.config();
 const app = express();
 
 const connectDB = new DataSource({
@@ -26,6 +28,8 @@ connectDB
     console.log("Connected to Postgres");
 
     app.use(express.json());
+    app.use(createClientRouter);
+    app.use(createBankerRouter);
 
     app.listen(8080, () => {
       console.log("Now running on port 8080");
