@@ -29,7 +29,9 @@ export class Transaction extends BaseEntity {
   })
   amount: number;
 
-  @ManyToOne(() => Client, (clinet) => clinet.transactions)
+  @ManyToOne(() => Client, (clinet) => clinet.transactions, {
+    onDelete: "CASCADE",
+  })
   // we have the forin key here
   // forin key is on the many side !!
   @JoinColumn({

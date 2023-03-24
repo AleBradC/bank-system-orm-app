@@ -25,7 +25,9 @@ export class Banker extends Person {
   updated_at: Date;
 
   // we need to create a separat table for many to many relationship
-  @ManyToMany(() => Client)
+  @ManyToMany(() => Client, {
+    cascade: true,
+  })
   @JoinTable({
     name: "bankers_clients",
     joinColumn: {
