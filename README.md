@@ -1,10 +1,19 @@
-# bank-system-orm-app
+## Project Title
 
-This is a small project to get used to typeORM 
+Bank system app
 
-Tech stack: 
+## Dependencies
 
 - node.js
 - typeORM 
 - express 
 - typeScript 
+
+## Status
+
+- in progress...
+
+## Description
+
+
+## Getting Started
