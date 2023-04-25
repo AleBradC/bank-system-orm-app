@@ -1,19 +1,19 @@
-## Project Title
+# Project Title
 
 Bank system app
 
-## Dependencies
+# Dependencies
 
 - node.js
 - typeORM 
 - express 
 - typeScript 
 
-## Status
+# Status
 
 - in progress...
 
-## Description
+# Description
 
 
-## Getting Started
+# Getting Started
