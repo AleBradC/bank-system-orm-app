@@ -6,14 +6,14 @@ Bank system app
 
 - node.js
 - typeORM 
-- express 
-- typeScript 
-
-# Status
-
-- in progress...
+- Express.js
+- TypeScript 
 
 # Description
+Bank system application where you can create client and transactions or delete, and also you can create a banker.
 
 
 # Getting Started
+- clone the project
+- npm i
+- npm run dev
