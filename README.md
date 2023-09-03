@@ -1,4 +1,4 @@
-## Bank system app
+# Bank system app
 
 ## Dependencies
 
